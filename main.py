@@ -14,8 +14,8 @@ class Article:
 
 database = {}
 
-url = 'https://www.kufar.by/l/r~minsk/noutbuki?ot=1&query=macbook&utm_search=Category%20only'
-webhook_url = "https://discord.com/api/webhooks/909893708294520892/fs6nkWaf6OSR7tIo8M0nR89nQuiCX952L7C_4lVK7Wp4Ii-JFyTAu6EaDsqE7eDl9pXo"
+url = 'https://www.kufar.by/l/r~minsk/'
+webhook_url = "https://discord.com/api/webhooks/"
 webhook = Webhook.from_url(webhook_url, adapter=RequestsWebhookAdapter())
 retry_sec = 2
 
